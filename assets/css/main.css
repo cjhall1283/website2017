@@ -306,6 +306,40 @@ a.svg:after {
   background-position: 65% 50%;
 }
 
+#faq-inner{
+  background:rgb(23,126,137);
+  height:100px;
+  color:white;
+  font-weight:300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  letter-spacing:7px;
+
+}
+
+#faq-large{
+  position:relative;
+  float:left;
+  font-size:30pt;
+  color:rgb(255,200,87);
+  clear:both;
+  margin-top: 20px;
+}
+#faq-text{
+  position:relative;
+  height: auto;
+  float: left;
+  margin-top:-20px;
+}
+
+#faq-text-inner{
+   margin-left:-10px;
+   margin-top: -10px;
+   color:white;
+ }
+
 #contact-header{
   color:white;
   font-size:40pt;
