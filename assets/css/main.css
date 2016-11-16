@@ -114,17 +114,6 @@ a.svg:after {
 }
 
 #sponsor-img{
-  position:relative;
-  height:250px;
-  float:left;
-  background: url('../img/sponsor.jpg');
-  background-size: auto 200%;
-  background-repeat: no-repeat;
-  background-position: 50% 20%;
-
-}
-
-#sponsor-img-test{
   height:250px;
   background: url('../img/sponsor.jpg');
   background-size: auto 200%;
@@ -222,21 +211,6 @@ a.svg:after {
 }
 
 #in-the-news-text{
-  position: relative;
-  height:125px;
-  float:left;
-  color:white;
-  text-align: right;
-  letter-spacing: 4px;
-  font-size: 23pt;
-  font-weight:500;
-  padding-top:10px;
-  background:rgb(8,75,97);
-  padding-right:20px;
-
-}
-
-#in-the-news-text-test{
   height:125px;
   color:white;
   text-align: right;
@@ -262,20 +236,6 @@ a.svg:after {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: 50% 30%;
-}
-
-
-#about-us-inner{
-  background:rgb(23,126,137);
-  height:100px;
-  color:white;
-  font-weight:300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30pt;
-  letter-spacing:7px;
-
 }
 
 #about-us-what-img
@@ -322,19 +282,6 @@ a.svg:after {
   background-size: auto 250%;
   background-repeat: no-repeat;
   background-position: 65% 50%;
-}
-
-#faq-inner{
-  background:rgb(23,126,137);
-  height:100px;
-  color:white;
-  font-weight:300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30pt;
-  letter-spacing:7px;
-
 }
 
 #faq-large{
