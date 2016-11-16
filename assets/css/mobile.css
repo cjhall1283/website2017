@@ -70,7 +70,6 @@
     {
         position:relative;
         height:200px;
-        float:left;
         background: url('../img/what-image.jpg');
         background-size: 100% auto;
         background-repeat: no-repeat;
@@ -115,6 +114,11 @@ section#in-the-news.col-xs-12{
 }
 
 #about-us.col-xs-12{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#faq.col-xs-12{
     padding-left:0px;
     padding-right:0px;
 }

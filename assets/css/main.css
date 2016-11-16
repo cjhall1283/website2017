@@ -124,6 +124,15 @@ a.svg:after {
 
 }
 
+#sponsor-img-test{
+  height:250px;
+  background: url('../img/sponsor.jpg');
+  background-size: auto 200%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+
+}
+
 
 #sponsors-text{
   position:relative;
@@ -226,6 +235,19 @@ a.svg:after {
   padding-right:20px;
 
 }
+
+#in-the-news-text-test{
+  height:125px;
+  color:white;
+  text-align: right;
+  letter-spacing: 4px;
+  font-size: 23pt;
+  font-weight:500;
+  padding-top:10px;
+  background:rgb(8,75,97);
+  padding-right:20px;
+
+}
 #isthmus{
   margin-right:-5px;
   width:260px;
@@ -258,9 +280,7 @@ a.svg:after {
 
 #about-us-what-img
 {
-  position:relative;
   height:230px;
-  float:left;
   background: url('../img/what-image.jpg');
   background-size: auto 140%;
   background-repeat: no-repeat;
@@ -275,7 +295,7 @@ a.svg:after {
 
 #about-us-large{
   position:relative;
-  float:left;
+  float: left;
   font-size:50pt;
   color:rgb(255,200,87);
   clear:both;
@@ -297,9 +317,7 @@ a.svg:after {
 
 #about-us-who-img
 {
-  position:relative;
   height:200px;
-  float:left;
   background: url('../img/who-img.jpg');
   background-size: auto 250%;
   background-repeat: no-repeat;
@@ -372,4 +390,19 @@ a.svg:after {
 
 #contact{
   margin-top:20px;
+}
+
+.section-header{
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+  background:rgb(23,126,137);
+  height:100px;
+  color:white;
+  font-weight:300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  letter-spacing:7px;
 }
