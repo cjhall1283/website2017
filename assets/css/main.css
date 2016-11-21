@@ -152,8 +152,30 @@ a.svg:after {
 #follow-img{
   width:20px;
   height:20px;
-
 }
+
+.info-button{
+  position:relative;
+  background:rgb(255,200,87);
+  color:rgb(50,48,49);
+  font-weight: 300;
+  font-size:23pt;
+  min-height:70px;
+  padding-left: 15px;
+  padding-right:15px;
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width:281px;
+  background-clip: content-box, padding-box;
+}
+
+.info-button:hover{
+  background:rgb(230,180,78);
+  color:rgb(50,48,49);
+}
+
 
 #sponsorship-button{
   position:relative;
