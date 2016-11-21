@@ -114,9 +114,7 @@ a.svg:after {
 }
 
 #sponsor-img{
-  position:relative;
   height:250px;
-  float:left;
   background: url('../img/sponsor.jpg');
   background-size: auto 200%;
   background-repeat: no-repeat;
@@ -154,8 +152,30 @@ a.svg:after {
 #follow-img{
   width:20px;
   height:20px;
-
 }
+
+.info-button{
+  position:relative;
+  background:rgb(255,200,87);
+  color:rgb(50,48,49);
+  font-weight: 300;
+  font-size:23pt;
+  min-height:70px;
+  padding-left: 15px;
+  padding-right:15px;
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width:281px;
+  background-clip: content-box, padding-box;
+}
+
+.info-button:hover{
+  background:rgb(230,180,78);
+  color:rgb(50,48,49);
+}
+
 
 #sponsorship-button{
   position:relative;
@@ -213,9 +233,7 @@ a.svg:after {
 }
 
 #in-the-news-text{
-  position: relative;
   height:125px;
-  float:left;
   color:white;
   text-align: right;
   letter-spacing: 4px;
@@ -242,25 +260,9 @@ a.svg:after {
   background-position: 50% 30%;
 }
 
-
-#about-us-inner{
-  background:rgb(23,126,137);
-  height:100px;
-  color:white;
-  font-weight:300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30pt;
-  letter-spacing:7px;
-
-}
-
 #about-us-what-img
 {
-  position:relative;
   height:230px;
-  float:left;
   background: url('../img/what-image.jpg');
   background-size: auto 140%;
   background-repeat: no-repeat;
@@ -275,7 +277,7 @@ a.svg:after {
 
 #about-us-large{
   position:relative;
-  float:left;
+  float: left;
   font-size:50pt;
   color:rgb(255,200,87);
   clear:both;
@@ -297,26 +299,11 @@ a.svg:after {
 
 #about-us-who-img
 {
-  position:relative;
   height:200px;
-  float:left;
   background: url('../img/who-img.jpg');
   background-size: auto 250%;
   background-repeat: no-repeat;
   background-position: 65% 50%;
-}
-
-#faq-inner{
-  background:rgb(23,126,137);
-  height:100px;
-  color:white;
-  font-weight:300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30pt;
-  letter-spacing:7px;
-
 }
 
 #faq-large{
@@ -372,4 +359,19 @@ a.svg:after {
 
 #contact{
   margin-top:20px;
+}
+
+.section-header{
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+  background:rgb(23,126,137);
+  height:100px;
+  color:white;
+  font-weight:300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  letter-spacing:7px;
 }
