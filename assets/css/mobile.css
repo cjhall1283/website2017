@@ -52,7 +52,6 @@
     #sponsor-img{
         position:relative;
         height:250px;
-        float:left;
         background: url('../img/sponsor.jpg');
         background-size: 100% auto;
         background-repeat: no-repeat;
