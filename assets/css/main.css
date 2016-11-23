@@ -421,3 +421,7 @@ section.col-xs-12 {
   font-size: 30pt;
   letter-spacing:7px;
 }
+
+.row{
+	margin-bottom: 20px;
+}
