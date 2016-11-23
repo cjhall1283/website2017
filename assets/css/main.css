@@ -82,6 +82,52 @@ a.svg:after {
   height:100px;
 }
 
+/* TODO: Format and finish where section
+section.col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#where-header {
+    position: relative;
+    float: left;
+    color: white;
+    font-weight: 300;
+    font-size: 22pt;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
+#where{
+    background: rgb(8,75,97);
+    min-height: 190px;
+    color: white;
+    padding: 20px;
+}
+
+#map-container{
+    padding:0px;
+    height:190px;
+    position: relative;
+    float:left;
+}
+
+#map>iframe{
+    min-height:190px;
+    height:auto;
+}
+
+#overlay {
+    background:rgba(255,255,255,.01);
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    z-index:10;
+}
+*/
+
 #page-title{
   font-weight: 400;
   font-style: italic;
