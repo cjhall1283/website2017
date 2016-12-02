@@ -128,10 +128,30 @@ section.col-xs-12 {
 }
 */
 
+#address{
+  padding-top:40px;
+  font-size: 20px;
+  text-align:center;
+}
+
 #map{
   height: 200px;
-  width: 100%;
+  width: 66.6%;
   float: right;
+}
+
+@media (max-width: 768px){
+  #map{
+    height: 200px;
+    width: 100%;
+    float: right;
+  }
+
+  #address{
+    padding-top:0px;
+    font-size: 36px;
+  }
+
 }
 
 #page-title{
@@ -367,16 +387,18 @@ section.col-xs-12 {
 #faq-large{
   position:relative;
   float:left;
-  font-size:30pt;
+  font-size:24pt;
   color:rgb(255,200,87);
   clear:both;
   margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 85%;
 }
 #faq-text{
   position:relative;
   height: auto;
   float: left;
-  margin-top:-20px;
+  margin-top:-10px;
 }
 
 #faq-text-inner{
