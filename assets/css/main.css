@@ -10,6 +10,10 @@ body {
   font-size: 18px;
 }
 
+p {
+  font-size: 20px;
+}
+
 .outside{
   background-color:rgb(50,48,49);
   height:1px;
@@ -141,6 +145,14 @@ section.col-xs-12 {
 }
 
 @media (max-width: 768px){
+  #header-container{
+    margin-top: 25px;
+  }
+
+  #header{
+    height: 275px;
+  }
+
   #map{
     height: 200px;
     width: 100%;
@@ -149,6 +161,10 @@ section.col-xs-12 {
 
   #address{
     padding-top:0px;
+  }
+
+  .sponsor-logo{
+    padding: 0px 25% 10px 25%;
   }
 
 }
@@ -269,7 +285,7 @@ section.col-xs-12 {
   position:relative;
 }
 
-#application-text{
+#application-text p{
   position:relative;
   height:100%;
   float:center;
@@ -315,6 +331,16 @@ section.col-xs-12 {
   padding-right:20px;
 
 }
+
+.sponsor-logo-container{
+  display: block;
+  margin: auto;
+}
+
+.sponsor-logo{
+  width:100%;
+}
+
 #isthmus{
   margin-right:-5px;
   width:260px;

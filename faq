@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Madhacks F.A.Q.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/mobile.css"/>
+
+    <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
+    <script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,900italic,900,700italic,700'
+          rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<section id="header">
+    <div class="col-sm-2 col-md-3 hidden-xs"></div>
+    <div class="container col-xs-12 col-sm-8 col-md-6">
+        <div id="header-container">
+            <div id="header-left" class="col-xs-3 col-sm-4">
+                <img src="assets/img/mh.png" id="header-logo">
+            </div>
+            <div id="header-right" class="col-xs-9 col-sm-8">
+                <div id="header-text">
+                    <span id="page-title">JOIN US AT</span><br/>
+                    <span id="logo-large">MADHACKS</span><br/>
+                    <span id="term">SPRING 2017</span>
+                </div>
+            </div>
+        </div>
+        <section id="social">
+            <span id="follow">FOLLOW US</span>
+            <a href="https://www.facebook.com/UWMadHacks" class="svg">
+                <object data="assets/img/facebook.svg" type="image/svg+xml" id="follow-img">
+                </object>
+            </a>
+            <a href="https://twitter.com/uwmadhacks" class="svg">
+                <object data="assets/img/twitter.svg" type="image/svg+xml" id="follow-img">
+                </object>
+            </a>
+            <a href="mailto:team@madhacks.org" class="svg">
+                <object data="assets/img/email.svg" type="image/svg+xml" id="follow-img">
+                </object>
+            </a>
+        </section>
+    </div>
+</section>
+
+<!-- This is the bulk of the content and should be centered on larger screens -->
+<div class="row" id="body-content">
+
+    <!-- Navbar --> 
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".my-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>   
+                <a class="navbar-brand" href="index.html">Madhacks</a>
+            </div>
+            <nav class="navbar-collapse collapse my-navbar">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="apply.html">Apply</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li class-"active"><a href="faq.html">FAQ</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                </ul>   
+            </nav>
+      </div>
+    </nav>
+
+    <!-- This div just helps to give space on either side of the content -->
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix outside"></div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+        <!-- All content should go in here -->
+
+        <!-- FAQ -->
+        <div id="faq-header" class="section-header">
+            F.A.Q.
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    What is a Hackathon?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    If you've never had the pleasure of attending a hackathon before,
+                    <a href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601#.67r2pnzap">checkout this post</a>
+                    about what a hackathon is and why you should attend one!
+                    <br>
+                    <br>
+                    Be sure to review the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH code of conduct</a>
+                    to know what to expect at MadHacks!
+
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    What's on the menu?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    MadHacks will be catered with enough food to keep you hacking well into the night, thanks to our wonderful sponsors. In our registration form, please indicate any dietary restrictions you have so we are able to accommodate you as we attempt create orders.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    Will there be buses or travel reimbursement?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    We have included travel costs into our budget, but routes and reimbursements will be dependent on demand, as well as pricing. It's likely that we'll be sending buses along major routes for nearby (Midwest) colleges. Please indicate you preference for travel on your application to help us better determine allocations.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    What should I bring?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    Whatever you need to make your hack a success! For most people, this means a laptop, charger, smartphone, and your friends! Optional, but nice things include: a pillow, blanket or sleeping bag, a change of clothes, a toothbrush, toothpaste, and deodorant. Please don't bring anything you wouldn't take on a school field trip.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    Do I need to know how to code?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    Nope! Programmers, graphic designers, engineers, and students of the craft at all skill levels are welcome. We will also have mentors to give talks and provide guidance throughout the event.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    How can I help?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    We're always looking for extra hands! Please contact <a href="mailto:team@madhacks.org">team@madhacks.org</a>
+                    if you are interested in pitching in.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-content" class="row">
+            <div id="faq-text" class="col-xs-12">
+                <div id="faq-large">
+                    How large can my team be?
+                </div>
+                <div id="faq-text-inner" class="col-xs-12">
+                    Teams are limited to a maximum of 4 members. No team? No problem! We will facilitate team formation at the start of the event for anyone who still needs a team.
+                </div>
+            </div>
+        </div>
+
+        <!-- End body content -->
+    </div>
+</div>
+
+<section id="contact" class="contact-bkg col-xs-12">
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
+    <div class="container-fluid col-xs-12 col-sm-8 col-md-8 col-lg-6 clearfix">
+        <div id="contact-header"><i>CONTACT US</i></div>
+        <a href="mailto:team@madhacks.org">
+            <div class="col-xs-12" id="contact-email">
+                team@madhacks.org
+            </div>
+        </a>
+        <div class="col-xs-12" id="contact-credit">
+            Photo Credit: MLH &nbsp; Made by MadHacks
+        </div>
+    </div>
+
+</section>
+
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
+<script>
+    function initMap() {
+        var uluru = {lat: 43.07180049999999, lng: -89.40345990000003};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe9DfnZkp4zlexhjUnIdMDX_jEJJrIMzs&callback=initMap">
+</script>
+</body>
+</html>
