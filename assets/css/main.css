@@ -320,6 +320,17 @@ section.col-xs-12 {
 
 }
 
+/* DEPRECATED */
+.sponsor-logo-container{
+  display: block;
+  margin: auto;
+}
+
+/* DEPRECATED */
+.sponsor-logo{
+  width:100%;
+}
+
 .spons-logo-container{
   display: block;
   margin: auto;
