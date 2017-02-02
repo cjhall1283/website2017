@@ -495,3 +495,34 @@ section.col-xs-12 {
   width: 10%;
   z-index: 10000
 }
+
+/* Schedule */
+.schedule-table{
+  color: white;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-label-saturday, .schedule-label-sunday{
+  border-right: solid thick rgb(23,126,137);
+}
+
+.schedule-label-saturday, #event-dinner, #time-dinner{
+  border-bottom: solid rgb(23,126,137);
+}
+
+.schedule-time, .schedule-event{
+  border-bottom: solid thin rgb(23,126,137);
+  padding: 5px;
+}
+
+#event-close, #time-close{
+  border-bottom: solid thin rgb(50,48,49);
+}
+
+
+.schedule-event{
+  text-align: left;
+}
+
+}
